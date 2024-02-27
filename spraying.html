@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spraying.css">
+    <title>FarmingDrones</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="header-top">
+                    <div class="header-top-logo">
+                        <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    </div>
+                    <a class="header-top-number" href="#">
+                        <img src="img/Phone.svg" alt="phone">+XXXX XXXXX XX
+                    </a>
+                    <div class="lang-box">
+                        <div id="ytWidget" style="display: none;"></div>
+                        <button data-ya-lang="ru">Ru</button>
+                        <button data-ya-lang="en">En</button>
+                    </div>
+                    <ul class="header-top-contacts">
+                        <a href="#"><img src="img/Vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/Instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/Tiktok.svg" alt="tiktok"></a>
+                    </ul>
+                    <div class="header-top-basket">
+                        <a href="#"><img src="img/Basket.svg" alt="basket"></a>
+                    </div>  
+                    <nav>
+                        <button class="header-top-menu-button" id="Dropdown-menu-button">
+                            <div class="header-top-menu-button-list" id="Menu-list"><img src="img/Menu.svg" alt="menu"></div>
+                            <div class="header-top-menu-button-close" id="Menu-close"><img src="img/Cross.svg" alt="cross"></div>
+                        </button>
+                        <div class="header-top-dropdown-menu" id="Dropdown-menu">
+                            <div class="header-top-dropdown-menu-box">
+                                <a class="header-top-dropdown-menu-item" href="index.html">Главная</a>
+                                <a class="header-top-dropdown-menu-item" href="entomophages.html">Энтомофаги</a>
+                                <a class="header-top-dropdown-menu-item" href="spraying.html">Опрыскивание</a>
+                                <a class="header-top-dropdown-menu-item" href="news/news1.html">Новости</a>
+                            </div>
+                            <div class="header-top-dropdown-menu-messengers">
+                                <ul>
+                                    <li><a href="#"><img src="img/Whatsapp.svg" alt="whatsapp"></a></li>
+                                    <li><a href="#"><img src="img/Telegram.svg" alt="telegram"></a></li>
+                                    <li><a href="#"><img src="img/Wechat.svg" alt="wechat"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div>
+                    <div class="container">
+                        <div class="header-bottom-filling">
+                            <h1>Опрыскивание полей дронами</h1>
+                            <p>Внесение средств защиты при помощи БПЛА повышают урожай, экономят время и находят самые эффективные решения по обработке полей.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="page">
+                    <a href="index.html" class="main-page">Главная</a>
+                    <p>/</p>
+                    <a href="spraying.html" class="side-page">Опрыскивание</a>
+                </div>
+                <div class="about">
+                    <h2>Об услуге</h2>
+                    <div class="about-filling" id="Text-wrapper"><p>Внесение средств защиты растений (СЗР) с помощью дронов является более точным по сравнению с традиционными способы внесения, позволяет обработку поля на этапах развития, когда доступ наземных опрыскивателей не возможен, а также позволяет точечную обработку очагов болезней.</p></div>
+                    <div>
+                        <button onclick="showMore()" ><img src="img/DropdownArrow.svg" alt="dropdown_arrow" class="about-button-more" id="Arrow-more"><img src="img/DropdownCross.svg" alt="dropdown_cross" class="about-button-close" id="Arrow-close"></button>
+                    </div>
+                    <div class="gradient" id="Gradient"></div>
+                </div>
+                <div class="advantages">
+                    <h2>Плюсы использования БПЛА</h2>
+                    <p class="background-text">Плюсы</p>
+                    <img src="img/DroneBg.svg" alt="dronebg">
+                    <div class="advantages-box">
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Wallet.svg" alt="wallet">
+                                <h4>Экономия</h4>
+                            </div>
+                            <ul>
+                                <li>Снижение расхода препаратов до 30%</li>
+                                <li>Проведение работ без уплотнения почвы +5-10% к урожаю</li>
+                                <li>Обработка высоких культур без повреждений</li>
+                                <li>Операционные издержки — экономия на использовании ГСМ, заработной платы, обслуживании техники</li>
+                            </ul>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Spraying.svg" alt="spraying">
+                                <h4>Эффективность</h4>
+                            </div>
+                            <ul>
+                                <li>Работаем по любой геометрии поля</li>
+                                <li>Возможность работать на влажных грунтах, на крутых склонах, под линиями электропередач, вблизи населенных пунктов и водоемов</li>
+                                <li>Большее количество капель на единицу площади</li>
+                                <li>Отсутствует необходимость подвоза большого количества воды</li>
+                                <li>Обработка листа со всех сторон</li>
+                            </ul>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Time.svg" alt="time">
+                                <h4>Оперативность</h4>
+                            </div>
+                            <ul>
+                                <li>Возможность защиты ваших растений до 1000 га за рабочую смену</li>
+                                <li>Круглосуточный режим работы</li>
+                                <li>Плановые и внеплановые обработки по требованию</li>
+                                <li>Точечная обработка СЗР в требуемых местах</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="disadvantages">
+                    <h2>Недостатки обычных методов</h2>
+                    <p class="background-text">Минусы</p>
+                    <div class="disadvantages-box">
+                        <div class="disadvantages-item">
+                            <div class="disadvantages-item-top">
+                                <img src="img/Spray.svg" alt="spray">
+                                <h4>Ручные опрыскиватели</h4>
+                            </div>
+                            <ul>
+                                <li>Низкая скорость обработки</li>
+                                <li>Низкая производительность труда</li>
+                                <li>Опасно для здоровья</li>
+                            </ul>
+                        </div>
+                        <div class="disadvantages-item">
+                            <div class="disadvantages-item-top">
+                                <img src="img/Tractor.svg" alt="tractor">
+                                <h4>Опрыскивание трактором</h4>
+                            </div>
+                            <ul>
+                                <li>Нежелательное уплотнение почвы</li>
+                                <li>Не обрабатывают поля со сложным рельефом</li>
+                                <li>Большой расход воды и химикатов</li>
+                                <li>Невозможность работы в рисовых чеках</li>
+                            </ul>
+                        </div>
+                        <div class="disadvantages-item">
+                            <div class="disadvantages-item-top">
+                                <img src="img/Plane.svg" alt="plane">
+                                <h4>Опрыскивание авиацией</h4>
+                            </div>
+                            <ul>
+                                <li>Необходимость согласования работ</li>
+                                <li>Скорость обработки одним БПЛА до 30 га/час</li>
+                                <li>Высокая стоимость</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="process">
+                    <h2>Как это работает</h2>
+                    <p class="background-text">Дробление капли</p>
+                    <div class="process-box">
+                        <div class="process-item">
+                            <div class="process-item-image">
+                                <div></div>
+                                <img src="../img/Nozzle1.png" alt="nozzle_photo">
+                                <div></div>
+                            </div>
+                            <h4>Стандартная форсунка:</h4>
+                            <ul>
+                                <li>Размер капли 250-400 микрон</li>
+                                <li>Большой расход воды</li>
+                                <li>Скатывание капли на землю</li>
+                            </ul>
+                        </div>
+                        <div class="process-item">
+                            <div class="process-item-image">
+                                <div></div>
+                                <img src="../img/Nozzle2.png" alt="nozzle_photo">
+                                <div></div>
+                            </div>
+                            <h4>Форсунка УМО:</h4>
+                            <ul>
+                                <li>Размер капли 80-150 микрон</li>
+                                <li>Более эффективное проникновение рабочего раствора</li>
+                                <li>Препарат оседает на листьях и стеблях не попадая в почву</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="img/LinesBg.svg" alt="linesbg">
+                </div>
+                <div class="contact">
+                    <div class="contact-box">
+                        <h2>Напишите нам</h2>
+                        <img src="img/Drone.png" alt="drone">
+                        <p>Заполните форму и мы за 5 минут подскажем вам лучшие способы защиты вашего урожая.</p>
+                        <div class="input-zone">
+                            <form>
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Ваш телефон">
+                                <input type="email" placeholder="Ваш email">
+                                <button>Отправить</button>
+                            </form>
+                        </div>
+                        <a href="#">Политика конфидициальности</a>
+                    </div>
+                    <img src="img/LinesBg.svg" alt="linesbg">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    </div>
+                    <a class="footer-number" href="#">
+                        <img src="img/Phone.svg" alt="phone">+XXXX XXXXX XX
+                    </a>
+                    <p>Подписывайтесь на наши соц. сети</p>
+                    <ul class="footer-contacts">
+                        <a href="#"><img src="img/Vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/Instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/Tiktok.svg" alt="tiktok"></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

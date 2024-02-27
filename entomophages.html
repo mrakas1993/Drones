@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/entomophages.css">
+    <title>FarmingDrones</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="header-top">
+                    <div class="header-top-logo">
+                        <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    </div>
+                    <a class="header-top-number" href="#">
+                        <img src="img/Phone.svg" alt="phone">+XXXX XXXXX XX
+                    </a>
+                    <div class="lang-box">
+                        <div id="ytWidget" style="display: none;"></div>
+                        <button data-ya-lang="ru">Ru</button>
+                        <button data-ya-lang="en">En</button>
+                    </div>
+                    <ul class="header-top-contacts">
+                        <a href="#"><img src="img/Vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/Instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/Tiktok.svg" alt="tiktok"></a>
+                    </ul>
+                    <div class="header-top-basket">
+                        <a href="#"><img src="img/Basket.svg" alt="basket"></a>
+                    </div>  
+                    <nav>
+                        <button class="header-top-menu-button" id="Dropdown-menu-button">
+                            <div class="header-top-menu-button-list" id="Menu-list"><img src="img/Menu.svg" alt="menu"></div>
+                            <div class="header-top-menu-button-close" id="Menu-close"><img src="img/Cross.svg" alt="cross"></div>
+                        </button>
+                        <div class="header-top-dropdown-menu" id="Dropdown-menu">
+                            <div class="header-top-dropdown-menu-box">
+                                <a class="header-top-dropdown-menu-item" href="index.html">Главная</a>
+                                <a class="header-top-dropdown-menu-item" href="entomophages.html">Энтомофаги</a>
+                                <a class="header-top-dropdown-menu-item" href="spraying.html">Опрыскивание</a>
+                                <a class="header-top-dropdown-menu-item" href="news/news1.html">Новости</a>
+                            </div>
+                            <div class="header-top-dropdown-menu-messengers">
+                                <ul>
+                                    <li><a href="#"><img src="img/Whatsapp.svg" alt="whatsapp"></a></li>
+                                    <li><a href="#"><img src="img/Telegram.svg" alt="telegram"></a></li>
+                                    <li><a href="#"><img src="img/Wechat.svg" alt="wechat"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div>
+                    <div class="container">
+                        <div class="header-bottom-filling">
+                            <h1>Высокоэффективные Энтомофаги</h1>
+                            <p>Внесение энтофагов при помощи БПЛА увеличивает эффективность защиты растений до 90%</p>
+                            <div class="header-bottom-filling-box">
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Soy.svg" alt="soy">
+                                    <p>до 90% сои</p>
+                                </div>
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Beetroot.svg" alt="beetroot">
+                                    <p>до 85 % сахарной свеклы</p>
+                                </div>
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Rape.svg" alt="rape">
+                                    <p>до 70 % рапса</p>
+                                </div>
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Sunflower.svg" alt="sunflower">
+                                    <p>до 85 % подсолнуха</p>
+                                </div>
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Corn.svg" alt="corn">
+                                    <p>до 80 % кукурудзы</p>
+                                </div>
+                                <div class="header-bottom-filling-item">
+                                    <img src="img/Fruit.svg" alt="fruit">
+                                    <p>до 90 % плодовых культур</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="page">
+                    <a href="index.html" class="main-page">Главная</a>
+                    <p>/</p>
+                    <a href="entomophages.html" class="side-page">Энтомофаги</a>
+                </div>
+                <div class="about">
+                    <h2>Об услуге</h2>
+                    <div class="about-filling" id="Text-wrapper"><p>Компания FarmingDrones за время научной работы совместно с ведущими НИИ страны разработала высокоэффективный метод защиты посевов от вредителей с использованием энтомофагов. Самый современный технопарк в стране, позволяет нам точно и быстро вносить трихограмму, златоглазку и габробракон на любых посевных площадях, включая труднодоступные участки, без применения тяжелой техники.</p></div>
+                    <div>
+                        <button onclick="showMore()" ><img src="img/DropdownArrow.svg" alt="dropdown_arrow" class="about-button-more" id="Arrow-more"><img src="img/DropdownCross.svg" alt="dropdown_cross" class="about-button-close" id="Arrow-close"></button>
+                    </div>
+                    <div class="gradient" id="Gradient"></div>
+                </div>
+                <div class="advantages">
+                    <h2>Плюсы использования</h2>
+                    <p class="background-text">Преимущества</p>
+                    <div class="advantages-box">
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Savings.svg" alt="savings">
+                                <h4>Доступная цена</h4>
+                            </div>
+                            <p>Низкая стоимость по сравнению с расходами на химическую обработку растений.</p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Wallet.svg" alt="wallet">
+                                <h4>Экономия</h4>
+                            </div>
+                            <p>Низкие затраты на внесение трихограмм, златоглазки и габробракону по сравнению с трационными методами обработки.</p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Drone.svg" alt="drone">
+                                <h4>Эффективность</h4>
+                            </div>
+                            <p>Высокая эффективность, снижение потерь урожайности в результате обработки с/х культур более чем на 90%.</p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Spraying.svg" alt="spraying">
+                                <h4>Оперативность</h4>
+                            </div>
+                            <p>За 60 минут полета дрон со специальным дозатором обрабатывает до 100 гектаров.</p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Insect.svg" alt="insect">
+                                <h4>Широкий спектр действия</h4>
+                            </div>
+                            <p>Двукратное внесение позволяет уничтожать несколько поколений вредителей.</p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-item-top">
+                                <img src="img/Spreading.svg" alt="spreading">
+                                <h4>Равномерное распределение</h4>
+                            </div>
+                            <p>Внесение с БПЛА гарантирует внедрение особей трихограммы, златогласки, габробракрну равномерно на всех участках поля.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="problems">
+                    <h2>Проблемы, которые мы решаем</h2>
+                    <img src="img/LinesBg.svg" alt="linesbg">
+                    <div>
+                        <div class="problems-box">
+                            <div class="problems-item">
+                                <div>
+                                    <p>1</p>
+                                </div>
+                                <p>Уничтожение опылителей (пчелы, шмели).</p>
+                            </div>
+                            <div class="problems-item">
+                                <div>
+                                    <p>2</p>
+                                </div>
+                                <p>Потеря урожая от работы тяжелой техники.</p>
+                            </div>
+                            <div class="problems-item">
+                                <div>
+                                    <p>3</p>
+                                </div>
+                                <p>Уничтожения природных энтомофагов (златоглазки, божьи коровки и т.д.).</p>
+                            </div>
+                            <div class="problems-item">
+                                <div>
+                                    <p>4</p>
+                                </div>
+                                <p>Уничтожение на посевах таких вредителей как совки, огневки, кукурузные и стеблевые мотельки, тля, клещи.</p>
+                            </div>
+                            <div class="problems-item">
+                                <div>
+                                    <p>5</p>
+                                </div>
+                                <p>Дефицита воды для опрыскивания.</p>
+                            </div>
+                            <div class="problems-item">
+                                <div>
+                                    <p>6</p>
+                                </div>
+                                <p>Резистентности у вредителей к химическим препаратам, что ведет за собой увеличение инсектицидной нагрузки, соответственно увеличение бюджета на защиту растений.</p>
+                            </div>
+                        </div>
+                        <img src="img/DroneFlyingBg.svg" alt="droneflyingbg">
+                    </div>
+                </div>
+                <div class="representatives">
+                    <h2>Представители энтомофагов</h2>
+                    <div class="representatives-box">
+                        <div class="representatives-item">
+                            <h3>Трихограмма</h3>
+                            <p>Трихограмма — мелкое насекомое, которое будучи личинкой, питается яйцами паразитов. Современные комплексы БПЛА (дроны) могут использоваться не только для сбора информации, но и для высокоэффективной и экономичной борьбы с вредителями урожая с помощью распыления трихограммы. Трихограмму можно вносить для защиты от совок, кукурузного мотылька, лугового мотылька и других чешуекрылых вредителей. Она паразитирует на яйцах более 70 видов вредителей.</p>
+                            <div class="representatives-item-filling">
+                                <p class="background-text">Трихограмма</p>
+                                <div class="representatives-item-image">
+                                    <div></div>
+                                    <img src="img/Entomophage1.jpg" alt="entomophage">
+                                    <div></div>
+                                </div>
+                                <div class="representatives-item-main">
+                                    <div>
+                                        <p>Расселение трихограммы на полях России  рекомендуется проводить как в стандартные сроки внесения, в которые наблюдается максимальная активность всех видов вредителей, так и при видимом появлении вредителей. В этом случае можно добиться максимальной эффективности с минимальным вредом для культур.</p>
+                                        <p>Для расселения трихограммы используется специальная автоматизированная система,  которая устанавливается на дроны мультироторного типа.</p>
+                                        <p>За 60 минут полета дрон со специальным дозатором обрабатывает до 100 гектаров. Эффективность комплексной защиты растений с помощью энтомофагов достигает 90%.</p>
+                                    </div>
+                                    <div class="representatives-item-list">
+                                        <img src="img/Batterfly.svg" alt="batterfly">
+                                        <div>
+                                            <p>Трихограмма эффективна против таких вредителей:</p>
+                                            <ul>
+                                                <li>Совки</li>
+                                                <li>Мотыльки</li>
+                                                <li>Плодожорки</li>
+                                                <li>Огневки</li>
+                                                <li>Листовертки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="representatives-item">
+                            <h3>Златоглазка</h3>
+                            <p>Каждая личинка златоглазки за жизнь способна уничтожить до 400 особей тли, более 2000 паутинных клещей, порядка 300 яиц колорадского жука, так же златоглазка пожирает гусениц первого возраста стеблевого мотылька, моли.</p>
+                            <div class="representatives-item-filling">
+                                <div class="representatives-item-main">
+                                    <div>
+                                        <p>При своевременном внесении и соблюдении всех технологических процессов при производстве и транспортировке, златоглазка эффективно защищает растение от вредителей и повышает урожайность.</p>
+                                        <p>Златоглазка уничтожает 76 видов вредителей и 11 видов клещей. Наиболее эффективна в борьбе с очагами заражения тлей, к лещами, стеблевым мотыльком.</p>
+                                        <p>Вносится златоглазка с помощью дрона, дозировка составляет 1000 яиц на один гектар. За 60 минут полета дрон со специальным дозатором обрабатывает до 100 гектаров. Эффективность комплексной защиты растений с помощью энтомофагов достигает 90%.</p>
+                                    </div>
+                                    <div class="representatives-item-list">
+                                        <img src="img/Batterfly.svg" alt="batterfly">
+                                        <div>
+                                            <p>Златоглазка эффективна против таких вредителей:</p>
+                                            <ul>
+                                                <li>Совки</li>
+                                                <li>Мотыльки</li>
+                                                <li>Плодожорки</li>
+                                                <li>Огневки</li>
+                                                <li>Листовертки</li>
+                                                <li>Тля и клещи</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="representatives-item-image">
+                                    <div></div>
+                                    <img src="img/Entomophage2.jpg" alt="entomophage">
+                                    <div></div>
+                                </div>
+                                <p class="background-text">Златоглазка</p>
+                            </div>
+                        </div>
+                        <div class="representatives-item">
+                            <h3>Габробракон</h3>
+                            <p>Габробракон — это насекомое способно защитить поля от более 60 видов вредителей, включая самых опасных для посевов мотыльков, плодожорок и огневок. Особенно эффективно габробракон работает на злаковых культурах, сое, плодовых деревьях и виноградниках.</p>
+                            <div class="representatives-item-filling">
+                                <p class="background-text">Габробракон</p>
+                                <div class="representatives-item-image">
+                                    <div></div>
+                                    <img src="img/Entomophage3.jpg" alt="entomophage">
+                                    <div></div>
+                                </div>
+                                <div class="representatives-item-main">
+                                    <div>
+                                        <p>Данный вид наездников паразитирует на гусеницах совок, стеблевого мотылька, карадрины, листоверток и различных чешуекрылых, поэтому исполь зование габробракона в нашей стране весьма целесообразно и перспективно.</p>
+                                        <p>Габробракон высокопродуктивен: достаточно 1000 взрослых особей энтомофага, чтобы защитить от потерь урожая 1 ГА земель.</p>
+                                        <p>За 60 минут полета дрон со специальным дозатором обрабатывает до 100 гектаров. Эффективность комплексной защиты растений с помощью энтомофагов достигает 90%</p>
+                                    </div>
+                                    <div class="representatives-item-list">
+                                        <img src="img/Batterfly.svg" alt="batterfly">
+                                        <div>
+                                            <p>Габробракон эффективен против таких вредителей:</p>
+                                            <ul>
+                                                <li>Совки</li>
+                                                <li>Мотыльки</li>
+                                                <li>Плодожорки</li>
+                                                <li>Огневки</li>
+                                                <li>Листовертки</li>
+                                            </ul>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="process">
+                    <h2>Этапы работы</h2>
+                    <div class="process-box">
+                        <div class="process-item">
+                            <div>
+                                <p>1</p>
+                            </div>
+                            <p>Исследуем состояние посевов и популяцию вредителей.</p>
+                        </div>
+                        <div class="background-process-item">
+                            <p>Определяем необходимые энтомофаги</p>
+                        </div>
+                        <div class="process-item">
+                            <div>
+                                <p>2</p>
+                            </div>
+                            <p>Определяем наиболее эффективные энтомофаги и график их внесения.</p>
+                        </div>
+                        <div class="background-process-item">
+                            <p>Вносим энтомофагов с помощью БПЛА</p>
+                        </div>
+                        <div class="background-process-item">
+                            <p>Исследуем посевы</p>
+                        </div>
+                        <div class="process-item">
+                            <div>
+                                <p>3</p>
+                            </div>
+                            <p>Выращиваем необходимую популяцию энтомофагов в собственной лаборатории.</p>
+                        </div>
+                        <div class="background-process-item">
+                            <p>Выращиваем энтомофагов</p>
+                        </div>
+                        <div class="process-item">
+                            <div>
+                                <p>4</p>
+                            </div>
+                            <p>Вносим энтомофаги по уникальной схеме на поля при помощи дронов.</p>
+                        </div>
+                    </div>
+                    <div class="process-box-arrows">
+                        <img src="img/Arrow.svg" alt="arrow">
+                        <img src="img/Arrow.svg" alt="arrow">
+                        <img src="img/Arrow.svg" alt="arrow">
+                    </div>
+                    <div class="process-background-images">
+                        <img src="img/LinesBgLight.svg" alt="linesbglight">
+                        <img src="img/LinesBgLight.svg" alt="linesbglight">
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-box">
+                        <h2>Напишите нам</h2>
+                        <img src="img/Drone.png" alt="drone">
+                        <p>Заполните форму и мы за 5 минут подскажем вам лучшие способы защиты вашего урожая.</p>
+                        <div class="input-zone">
+                            <form>
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Ваш телефон">
+                                <input type="email" placeholder="Ваш email">
+                                <button>Отправить</button>
+                            </form>
+                        </div>
+                        <a href="#">Политика конфидициальности</a>
+                    </div>
+                    <img src="img/LinesBg.svg" alt="linesbg">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
+                    </div>
+                    <a class="footer-number" href="#">
+                        <img src="img/Phone.svg" alt="phone">+XXXX XXXXX XX
+                    </a>
+                    <p>Подписывайтесь на наши соц. сети</p>
+                    <ul class="footer-contacts">
+                        <a href="#"><img src="img/Vk.svg" alt="vk"></a>
+                        <a href="#"><img src="img/Instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="img/Tiktok.svg" alt="tiktok"></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
